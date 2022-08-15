@@ -1,4 +1,6 @@
 import React from "react";
+import QueryBuilder from "react-querybuilder";
+import qb from "../querybuilder/qb";
 
 
 function Home() {
@@ -21,8 +23,11 @@ function Home() {
 				
 				
 			</p>
+		
 		</div>
+
 	);
+
 	
 }
 
