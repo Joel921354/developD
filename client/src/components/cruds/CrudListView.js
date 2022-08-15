@@ -77,7 +77,7 @@ function CrudListView() {
 										<span>
 											<small>
 												<Link to={`/cruds/${crud._id}`} className="link-line">
-													Read More...
+													&nbsp; Read More...
 												</Link>
 											</small>
 										</span>

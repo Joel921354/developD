@@ -11,6 +11,7 @@ import CrudDetails from "./components/cruds/CrudDetails";
 import CrudEdit from "./components/cruds/CrudEdit";
 import CrudDelete from "./components/cruds/CrudDelete";
 import Footer from "./components/common/Footer";
+import QueryBuilder from "react-querybuilder";
 
 function App() {
 	return (
@@ -31,6 +32,7 @@ function App() {
 				</Routes>
 				<Footer />
 			</Router>
+			
 		</div>
 	);
 }
